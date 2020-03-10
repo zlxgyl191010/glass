@@ -12,7 +12,7 @@ import java.util.List;
 @Transactional
 public class BrandServiceImpl implements BrandService {
 
-    /** 注入数据访问接口代理对象.. */
+    /** 注入数据访问接口代理对象 */
     @Autowired
     private BrandMapper brandMapper;
 
